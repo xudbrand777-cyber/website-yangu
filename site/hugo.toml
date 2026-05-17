@@ -1,12 +1,40 @@
-baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Kaldi"
+baseURL = "https://drax-x9.netlify.app/"
+languageCode = "sw"
+defaultContentLanguage = "sw"
+title = "DRAX X9"
+theme = "gohugo-theme-ananke"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[languages]
+  [languages.sw]
+    languageName = "Kiswahili"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
 
 [params]
-images = ["img/og-image.jpg"]
+  description = "DRAX X9 - Kituo chako kwa taarifa za Hacking na Teknolojia."
+  profile_picture = "https://i.ibb.co/nqw7GXVj/Drax-X9-Profile.png"
+  text_color = "text-lime-300"
+  bg_color = "bg-black"
+  custom_css = ["css/custom.css"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Info"
+    url = "/info"
+    weight = 2
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 3
+
+[contact]
+  phone = "+255614615384"
+  whatsapp = "https://wa.me/255614615384"
+  telegram = "https://t.me/DraxX9"
+
