@@ -1,7 +1,0 @@
-[build]
-  publish = "public"
-  command = "hugo --source=site"
-
-[context.production.environment]
-  HUGO_VERSION = "0.145.0"
-
