@@ -3,5 +3,5 @@
   command = "hugo --source=site"
 
 [context.production.environment]
-  HUGO_VERSION = "0.120.0"
+  HUGO_VERSION = "0.145.0"
 
